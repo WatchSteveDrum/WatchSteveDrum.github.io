@@ -11,6 +11,12 @@ h1 {
 }
 
 div {
-  width: 50%;
+  width: 46%;
+  padding: 2%;
   float: left;
+}
+@media (max-width: 767px) {
+  div {
+    width: 96%;
+  }
 }
