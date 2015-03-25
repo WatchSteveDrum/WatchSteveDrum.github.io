@@ -1,22 +1,30 @@
-body {
-  margin: 0;
-}
-
 * {
   font-family: 'Open Sans', sans-serif;
 }
-
+body {
+  margin: 0;
+  background-color: #111;
+}
 h1 {
   text-align: center;
+  color: #567CC2;
+  padding: 1em;
+  font-size: 3em;
+  background-image: url(http://lorempixel.com/1000/300/);
 }
-
+h2 {
+  margin-top: 0;
+}
 div {
-  width: 46%;
+  width: 42%;
   padding: 2%;
   float: left;
+  box-shadow: 0 0 10px lightblue;
+  margin: 2%;
+  background-color: #eee;
 }
 @media (max-width: 767px) {
   div {
-    width: 96%;
+    width: 92%;
   }
 }
