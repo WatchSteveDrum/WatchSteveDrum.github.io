@@ -9,6 +9,7 @@ h1 {
   text-align: center;
   color: #567CC2;
   padding: 1em;
+  margin: 0;
   font-size: 3em;
   background-image: url(http://lorempixel.com/1000/300/);
 }
@@ -25,6 +26,7 @@ div {
 }
 @media (max-width: 767px) {
   div {
-    width: 92%;
+    margin: 4%;
+    width: 88%;
   }
 }
