@@ -24,8 +24,8 @@ a {
   color: white;
 }
 p > a {
-  background-color: #24b;
-  border-radius: 4px;
+  background: linear-gradient(#24b, #28b);
+  border-radius: 3px;
   padding: 2px 4px;
 }
 #header {
