@@ -18,6 +18,9 @@ h1 {
 h2 {
   margin-top: 0;
 }
+a {
+  color: white;
+}
 #header {
   width: 400px;
   position: fixed;
@@ -71,6 +74,7 @@ h2 {
   display: inline-block;
   padding: 1em;
   margin: 0.5em;
-  background-color: lightblue;
+  background: linear-gradient(#24b, #28b);
   border-radius: 3px;
+  box-shadow: 0 0 8px #666;
 }
