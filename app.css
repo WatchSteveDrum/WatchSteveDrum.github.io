@@ -23,6 +23,11 @@ h2 {
 a {
   color: white;
 }
+p > a {
+  background-color: #24b;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
 #header {
   width: 400px;
   position: fixed;
