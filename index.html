@@ -8,34 +8,68 @@
     <link href="app.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div id="header">
-      <h1>Steve Shaffer</h1>
-    </div>
-    <div id="content">
-      <div id="summary" class="info-box">
+    <div class="container">
+
+      <div id="title" class="tile">
+        <div class="mask">
+          <h1 id="name">Steve Shaffer</h1>
+        </div>
+      </div>
+      <div id="summary" class="tile">
         <h2>Who is this guy?</h2>
         <p>
-          Steve Shaffer is a Catholic husband, father, computery-guy, and musician (theoretically in that order).
+          Steve Shaffer is a Catholic husband, father, programmer, and musician (theoretically in that order).
           This is his website, and there is not much on it.
-          But it was coded from scratch and almost completely <a href="https://github.com/SteveShaffer/SteveShaffer.github.io">on GitHub</a> (because it sounded like an interesting experiment).
-          Enjoy!
+          It's mostly just a playground for web design ideas.
         </p>
-      </div>
-      <div id="oc-gis" class="info-box">
-        <h2>OC GIS Meetup</h2>
         <p>
-          I started this thing called the OC GIS Meetup.
-          It's a gathering for GIS professionals in Orange County, CA to get together and geogeek the heck out!
-          It sort of lives <a href="http://www.meetup.com/oc-gis">here</a>.
+          If it looks really bad, you should probably <a href="https://www.google.com/chrome/browser/">update your browser</a>.
+          If it still looks bad, then <a href="https://github.com/SteveShaffer/SteveShaffer.github.io">fix it yourself!</a> :)
         </p>
       </div>
-      <!--<div id="projects" class="info-box">
-        <h2>Projects</h2>
+      <div id="presentations" class="tile">
+        <h2>Recent Presentations</h2>
+        <p>Here's some links to recent presentations I've given.</p>
         <ul>
-          <li>Coming Soon...</li>
+          <li>
+            <a href="https://docs.google.com/presentation/d/1fPhDN7-03-14diKMlXYeBdMZwTrkJqse2ljanL1Rk0k/edit"
+               target="_blank">
+              Keeping Applications DRY with Angular-Formly
+            </a>
+          </li>
+          <li>
+            <a href="https://docs.google.com/presentation/d/1EAKP0yvyxIOlumfuiXq-iubXel2uqiv35Zs5XPA7AVk/edit"
+               target="_blank">
+              Using Python in ArcGIS
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/file/d/1C-voF9rb9Eiv2yImEZ-gEoAwtOsOy0TXm-__XoDrKGE/view"
+               target="_blank">
+              Feature Class Inheritance
+            </a>
+          </li>
         </ul>
-      </div>-->
-      <div id="music" class="info-box">
+      </div>
+      <div id="experiments" class="tile">
+        <h2>Experiments</h2>
+        <p>Some code experiments I'm toying with</p>
+        <ul>
+          <li>
+            <a href="http://synchroq.appspot.com/" target="_blank">Synq</a>
+          </li>
+          <li>
+            <a href="http://barcode-checkout.appspot.com/" target="_blank">Barcode Checkout</a>
+          </li>
+          <li>
+            <a href="http://mywebta.appspot.com/" target="_blank">myTA</a>
+          </li>
+          <li>
+            <a href="https://github.com/SteveShaffer/goog-stack">goog-stack</a>
+          </li>
+        </ul>
+      </div>
+      <div id="music" class="tile">
         <h2>Music</h2>
         <p>I play music.  From time to time I throw some sketches up online.</p>
         <ul>
@@ -43,36 +77,27 @@
           <li><a href="https://soundcloud.com/watchstevedrum">SoundCloud</a></li>
         </ul>
       </div>
-      <div id="contact" class="info-box">
-        <h2>Contact</h2>
-        <p>Would you like to talk to me?  Boy have I got a list of links for you!</p>
-        <ul>
-          <li><a href="https://www.google.com/+SteveShaffer">Google+</a></li>
-          <li><a href="https://twitter.com/__shaffer">Twitter</a></li>
-          <li><a href="https://www.linkedin.com/in/steveshaf">LinkedIn</a></li>
-          <li><a href="https://github.com/SteveShaffer">GitHub</a></li>
-          <li><a href="mailto:steve@shaffer.ninja">Email</a></li>
-        </ul>
-      </div>
-      <div id="art" class="info-box">
-        <h2>Artwork</h2>
-        <p>
-          I am not a visual artist.
-          That cartoon of me was drawn by an awesome artist named Megasha.
-          Check her out on <a href="http://megasha.deviantart.com/">DeviantArt</a>!
-        </p>
-      </div>
     </div>
+
+    <footer id="contact">
+      <ul>
+        <li><a href="https://twitter.com/__shaffer">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/steveshaf">LinkedIn</a></li>
+        <li><a href="https://github.com/SteveShaffer">GitHub</a></li>
+        <li><a href="mailto:steve@shaffer.ninja">Email</a></li>
+      </ul>
+    </footer>
+
     <!--Scripts-->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    
+
       ga('create', 'UA-72939442-2', 'auto');
       ga('send', 'pageview');
-    
+
     </script>
   </body>
 </html>
