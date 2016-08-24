@@ -5,9 +5,17 @@ body {
   margin: 0;
   background: #e2e1e0;
   padding-bottom: 120px;
+  transition: background ease 300s;
+  min-width: 200px;
+}
+body:hover {
+  background: #333333;
 }
 h1, h2 {
   margin-top: 0;
+}
+h1 {
+  font-size: 2.75em;
 }
 a {
   color: white;
@@ -48,7 +56,7 @@ p > a {
 .tile {
   background: #fff;
   border-radius: 2px;
-  min-width: 120px;
+  min-width: 140px;
   width: 300px;
   min-height: 100px;
   max-height: 300px;
@@ -57,6 +65,11 @@ p > a {
   padding: 1em;
   position: relative;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+@media (max-width: 742px) {
+  .tile {
+    max-height: none;
+  }
 }
 .tile:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
