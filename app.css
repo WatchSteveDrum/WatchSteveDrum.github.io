@@ -60,7 +60,8 @@ p > a {
   width: 300px;
   min-height: 100px;
   max-height: 300px;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
   margin: 1em;
   padding: 1em;
   position: relative;
@@ -69,6 +70,7 @@ p > a {
 @media (max-width: 742px) {
   .tile {
     max-height: none;
+    overflow-y: hidden;
   }
 }
 .tile:hover {
